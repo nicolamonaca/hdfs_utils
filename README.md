@@ -7,11 +7,11 @@ hdfs_utils is a collections of a few functions to better operate with HDFS, due 
 
 ***Usage:***
 
-    ./hdfs_check_folder_size.sh /user/nic/
+    ./hdfs_check_folder_size.sh /user/nic/size
 
 ***Output:***
 
-    81.9 G  /user/nic
+    81.9 G  /user/nic/size
 
 ## hdfs_delete_empty_files.sh
 
@@ -19,19 +19,19 @@ hdfs_utils is a collections of a few functions to better operate with HDFS, due 
 
 ***Usage:***
 
-    ./hdfs_delete_empty_files.sh /user/nic/
+    ./hdfs_delete_empty_files.sh /user/nic/empty
 
 ***Output:***
 
-    Checking for empty files in /user/nic...
+    Checking for empty files in /user/nic/empty...
     
-    Deleting /user/nic/empty.txt ...
+    Deleting /user/nic/empty/empty.txt ...
     17/07/13 11:32:56 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 360 minutes, Emptier interval = 0 minutes.
-    Moved: 'hdfs://hdm1.gphd.local:8020/user/nic/empty.txt' to trash at: hdfs://hdm1.gphd.local:8020/user/nic/.Trash/Current
+    Moved: 'hdfs://hdm1.gphd.local:8020/user/nic/empty.txt' to trash at: hdfs://hdm1.gphd.local:8020/user/nic/empty/.Trash/Current
     
-    Deleting /user/tufcdl/nic/empty2.txt ...
+    Deleting /user/tufcdl/nic/empty/empty2.txt ...
     17/07/13 11:32:58 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 360 minutes, Emptier interval = 0 minutes.
-    Moved: 'hdfs://hdm1.gphd.local:8020/user/nic/empty2.txt' to trash at: hdfs://hdm1.gphd.local:8020/user/nic/.Trash/Current
+    Moved: 'hdfs://hdm1.gphd.local:8020/user/nic/empty/empty2.txt' to trash at: hdfs://hdm1.gphd.local:8020/user/nic/empty/.Trash/Current
 
 ## hdfs_space_report.sh
 
