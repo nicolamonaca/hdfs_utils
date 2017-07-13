@@ -2,8 +2,11 @@
 hdfs_utils is a collections of a few functions to better operate with HDFS, due to a lack of functionalities in the Hadoop Distributed File System, or, in some cases, to encapsulate hard-to-remember commands into more user-friendly names. Below is a description of each function's purpose, usage and a sample output. More functions will hopefully come in the future: 
 
 ## hdfs_check_folder_size.sh
+
 *Purpose:* check a HDFS folder's size
+
 *Usage:* ./hdfs_check_folder_size.sh /user/nic/
+
 *Output:* 81.9 G  /user/nic
 
 ## hdfs_delete_empty_files.sh
