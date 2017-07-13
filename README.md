@@ -1,5 +1,5 @@
 # hdfs_utils
-The Hadoop Distributed File System is known for having some limitations when dealing with files. In particular, some tasks like deleting empty files under a certain HDFS directory or counting the lines in *all* the files under a folder can be difficult or simply time-consuming to carry on, not to mention hard-to-remember commands. In order to overcome these limitations, I've released a set of functions to better interact with the HDFS. Below is a description of each function's purpose, usage and a sample output. More will hopefully come in the future: 
+The Hadoop Distributed File System (HDFS) is known for having some limitations when dealing with files. In particular, some tasks like deleting empty files under a certain HDFS directory or counting the lines in *all* the files under a folder can be difficult or simply time-consuming to carry on, not to mention hard-to-remember commands. In order to overcome these limitations, I've released a set of functions to better interact with the HDFS. Below is a description of each function's purpose, usage and a sample output. More will hopefully come in the future: 
 
 ## hdfs_check_folder_size.sh
 
