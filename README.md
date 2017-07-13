@@ -56,7 +56,7 @@ The Hadoop Distributed File System (HDFS) is known for having some limitations w
 
 ***Purpose:*** count the number of lines in each file contained in a particular HDFS folder, optionally excluding n header lines in each file from the total count. This comes handy when one has to make sure the count over an external table mapped on a particular folder contains all the expected lines contained in the raw files under that same directory. 
 
-***Usage:**
+***Usage:***
 
     ./hdfs_wc_over_dir.sh /user/nic/count/ 0 (<- how many header lines in each file we must exclude from the count)
 
