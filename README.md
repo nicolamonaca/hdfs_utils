@@ -17,10 +17,13 @@ hdfs_utils is a collections of a few functions to better operate with HDFS, due 
 
 ***Output:*** Checking for empty files in /user/nic...
 Deleting /user/nic/empty.txt ...
+
 17/07/13 11:32:56 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 360 minutes, Emptier interval = 0 minutes.
+
 Moved: 'hdfs://hdm1.gphd.local:8020/user/nic/empty.txt' to trash at: hdfs://hdm1.gphd.local:8020/user/nic/.Trash/Current
 Deleting /user/tufcdl/nic/empty2.txt ...
 17/07/13 11:32:58 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 360 minutes, Emptier interval = 0 minutes.
+
 Moved: 'hdfs://hdm1.gphd.local:8020/user/nic/empty2.txt' to trash at: hdfs://hdm1.gphd.local:8020/user/nic/.Trash/Current
 
 ## hdfs_space_report.sh
@@ -30,12 +33,19 @@ Moved: 'hdfs://hdm1.gphd.local:8020/user/nic/empty2.txt' to trash at: hdfs://hdm
 ***Usage:*** ./hdfs_space_report.sh
 
 ***Output:*** Configured Capacity: 239871532728320 (218.16 TB)
+
 Present Capacity: 239842944492192 (218.14 TB)
+
 DFS Remaining: 38827775640636 (35.31 TB)
+
 DFS Used: 201015168851556 (182.82 TB)
+
 DFS Used%: 83.81%
+
 Under replicated blocks: 4679
+
 Blocks with corrupt replicas: 0
+
 Missing blocks: 0
 
 ## hdfs_wc_over_dir.sh
