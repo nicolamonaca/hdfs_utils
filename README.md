@@ -66,7 +66,7 @@ The Hadoop Distributed File System (HDFS) is known for having some limitations w
 
 ## hdfs_grep_over_dir.sh
 
-***Purpose:*** grep a string over an entire folder. The function returns all the HDFS files in which the string was found, if any, so that it would be possible to perform a regular grep over that file to see the occurrence. The function operates in parallel, downloading a number of files that depends on the number of files in the folder, so it auto-adjusts.  
+***Purpose:*** grep a string over an entire folder. The function returns all the HDFS files in which the string was found, if any, so that it would be possible to perform a regular grep over that file to see the occurrence in place. The function operates in parallel, downloading a number of files that depends on the number of files in the folder, so it simply auto-adjusts.  
 
 ***Usage:***
     
