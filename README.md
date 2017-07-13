@@ -60,8 +60,11 @@ Missing blocks: 0
 
 ***Purpose:*** grep a string over an entire folder. The function returns all the HDFS files in which the string was found, if any, so that it would be possible to perform a regular grep over that file to see the occurrence. The function operates in parallel, downloading a number of files that depends on the number of files in the folder, so it auto-adjusts.  
 
-***Usage:*** ./hdfs_grep_over_dir.sh /user/nic/grep 1122
+***Usage:***
+    
+    ./hdfs_grep_over_dir.sh /user/nic/grep 1122
 
-***Output:*** /user/nic/grep/13460604_15
-
-/user/nic/grep/13460604_4
+***Output:***
+           
+    /user/nic/grep/13460604_15
+    /user/nic/grep/13460604_4
